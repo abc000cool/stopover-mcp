@@ -2,9 +2,23 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "com.flystopover/stopover",
   "title": "Stopover",
-  "description": "Plans multi-city trips: the cheapest order of cities, the dates, and the flights or trains between.",
-  "version": "1.0.0",
+  "description": "Plans multi-city trips: the cheapest order of cities, the dates, and flights or trains for each leg.",
+  "version": "1.0.1",
   "websiteUrl": "https://flystopover.com",
-  "icons": [{ "src": "https://flystopover.com/icon.svg", "mimeType": "image/svg+xml" }],
-  "remotes": [{ "type": "streamable-http", "url": "https://mcp.flystopover.com/mcp" }]
+  "repository": {
+    "url": "https://github.com/abc000cool/stopover-mcp",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://flystopover.com/icon.svg",
+      "mimeType": "image/svg+xml"
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.flystopover.com/mcp"
+    }
+  ]
 }
